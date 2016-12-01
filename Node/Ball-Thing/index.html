@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Ball Thing</title>
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=no">
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body id="body">
+		<div id="game" style="display:none;">
+				<div id="ball"></div>
+		</div>
+		<div id="main">
+			<h1 id="display">Color</h1>
+			<div id="stats" style="display:none;">
+				<h2>Alpha: <span id="alpha">0</span></h2>
+				<h2>Beta: <span id="beta">0</span></h2>
+				<h2>Gamma: <span id="gamma">0</span></h2>
+			</div>
+			<div id="mobile">
+				<div class="center">
+					<div class="group">      
+						<input type="text" id="code" required>
+						<span class="highlight"></span>
+						<span class="bar"></span>
+						<label>Code</label>
+					</div>
+					<button id="btn-link" class="btn" type="button"><span>Link</span></button>
+				</div>
+			</div>
+		</div>
+
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

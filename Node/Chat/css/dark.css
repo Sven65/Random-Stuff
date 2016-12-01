@@ -1,0 +1,26 @@
+/*
+ Copyright Mackan <mackan@discorddungeons.me>
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+*/
+#main { font: 13px Helvetica, Arial;}
+body { background-color: #000; color: #FFF;}
+#frm { background: #000; padding: 3px; position: fixed; bottom: 0; width: 100%;}
+.sInfo{ font-weight: bolder;}
+#main > #messages { list-style-type: none; margin: 0; padding: 0;  overflow: auto;}
+#main > #messages li { padding: 5px 10px; }
+#main > #messages li:nth-child(odd) {background: #343434;}
+#ni{max-width: 50%; margin: auto; margin-top: 18%;}
+.op{ color: #66D9EF;}
+.pm{color:#a009f2;}
+.sPm{color:#a009f2;}

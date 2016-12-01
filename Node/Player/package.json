@@ -1,0 +1,10 @@
+{
+  "name": "Player",
+  "description": "Some kinda youtube music player thing",
+  "version": "0.0.1",
+  "dependencies": {
+    "socket.io": "^1.5.1",
+    "socket.io-stream": "^0.9.1",
+    "ytdl-core": "^0.7.19"
+  }
+}

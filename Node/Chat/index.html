@@ -1,0 +1,53 @@
+<!--
+ Copyright Mackan <mackan@discorddungeons.me>
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+ 	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mackan's chat</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" id="css" href="css/monokai.css">
+  </head>
+  <body>
+    <div id="ni">
+  		<div class="alert alert-danger" role="alert" id="err" style="display:none;"></div>
+        <input type="text" id="nin" class="form-control" placeholder="Username" autofocus>
+        <br>
+  		  <input type="password" id="pass" class="form-control" placeholder="Password">
+        <br>
+      	<button class="btn btn-primary" id="connect" type="button">Connect!</button>
+        <button class="btn btn-primary" id="Register" type="button">Register!</button>    
+      </div>
+	   </div>
+  	<div id="main" style="display:none">
+	    <div id="messages"></div>
+	    <p id="bottom"></p>
+	    <div class="input-group" id="frm">
+      		<input type="text" id="m" autocomplete="off" class="form-control" autofocus>
+      		<span class="input-group-btn">
+    			<button class="btn btn-primary" id="Send" type="button">Send</button>
+      		</span>
+    	</div>
+	</div>
+    <script src="/socket.io/socket.io.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/SHA512.js"></script>
+	<script src="js/chat.js"></script>
+  </body>
+</html>

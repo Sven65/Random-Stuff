@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Some kind of youtube player thing">
+		<meta name="author" content="Mackan <mackan@discorddungeons.me>">
+		<title>Music Thing</title>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="/stream.js"></script>
+		<link rel="stylesheet" href="main.css">
+
+	</head>
+	<body>
+		<h1 id="status">Status</h1>
+		<div class="request">
+			<input type="url" id="url" placeholder="URL">
+			<button type="button" id="submit">Submit</button>
+		</div>
+		<div class="player">
+			<audio controls="true"></audio>
+		</div>
+		<div class="queue"></div>
+		<script src="/client.js"></script>
+	</body>
+</html>
