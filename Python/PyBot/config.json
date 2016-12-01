@@ -1,0 +1,9 @@
+{
+	"HOST":"irc.freenode.net",
+	"PORT": 6667,
+	"NICK": "Zouth_",
+	"IDENT": "Zouth_",
+	"REALNAME": "Zouth_",
+	"MASTER": "Mackan90096",
+	"DEFAULTCHAN": "###Mackan"
+}

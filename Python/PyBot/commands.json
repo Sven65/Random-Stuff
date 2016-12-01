@@ -1,0 +1,22 @@
+{
+	"!pong": {
+		"type": "say",
+		"returns": "{from}: Ping",
+		"ul": "USER"
+	},
+	"!help": {
+		"type": "say",
+		"returns": "Help!",
+		"ul": "USER"
+	},
+	"!args": {
+		"type": "say",
+		"returns": "Args {1} {2}",
+		"ul": "USER"
+	},
+	"!error": {
+		"type": "say",
+		"returns": "{x}",
+		"ul": "USER"
+	}
+}

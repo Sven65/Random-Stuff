@@ -1,0 +1,8 @@
+{
+  "name": "Fetch",
+  "version": "0.0.1",
+  "description": "Image downloader",
+  "dependencies": {
+    "request": "^2.69.0"
+  }
+}
