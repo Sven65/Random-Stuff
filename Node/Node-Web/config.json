@@ -1,0 +1,6 @@
+{
+    "port": 80,
+    "dirlist": true,
+    "restrict": ["NWeb.js", "package.json", "config.json"],
+    "server": true
+}

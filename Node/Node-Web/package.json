@@ -1,0 +1,11 @@
+{
+  "name": "Node-Web",
+  "version": "0.0.1",
+  "description": "A webserver powered by node.js",
+  "dependencies": {
+    "bytes": "^2.1.0",
+    "colors": "^1.1.2",
+    "diskspace": "^0.1.7",
+    "express": "*"
+  }
+}
